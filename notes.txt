@@ -1,0 +1,53 @@
+Print to the console with print()
+input("Prompt here") to get user input
+name = "Ariel" variable declaration'
+len(name) = 5
+type(name) = "string"
+Primitive Data Types: String, Integer, Float, Boolean
+
+int() removes everything after decimal
+round() rounds to the nearest whole number
+
+if CONDITION:
+  code..
+elif CONDITION:
+  code..
+else:
+  code..
+
+and === &&
+or === ||
+not === !
+
+"cool".count("o") === 2
+['apple', 'banana', 'cherry'].count("cherry") = 1
+
+import random for random module
+
+random.randint(a,b) => random integer between a & b, including both.
+
+Python list is a data structure (way of storing & organizing data)
+
+fruits = ["apple", "cherry", "banana"]
+fruits.append("peach")        #array.push("peach")
+print(fruits) => ["apple", "cherry", "banana", "peach"]
+fruits.extend(["guava", "watermelon"])      #array1.concat(array2)
+print(fruits) => ["apple", "cherry", "banana", "peach", "guava", "watermelon"]
+list.insert(index, element)
+list.remove(element)
+list.pop(index) if no index provided, remove last element
+list.clear remove all items from list
+list.index(value) returns the index of the first value equal to input
+
+fruits = ["apple", "peach", "pear"]
+for fruit in fruits:
+  print(fruit)
+
+range() generates a range of numbers for you to loop through y is non-inclusive
+for number in range(x, y, step):
+  print(number)
+
+random.shuffle() randomizes the order of elements in a list.
+
+def multiply_by_two(num):
+  return num * 2

@@ -55,3 +55,12 @@ def multiply_by_two(num):
 
 from file_name import variable_name, variable_name
 import file_name
+
+python dictionary === plain old javascript object
+for key in python_dictionary:
+  print(key)
+  print(python_dictionary[key])
+
+def capitalize(fname, lname):
+"""Will take a first and last name as input and return a capitalized version of the full name"""
+  return f"{fname.title()} {lname.title()}"

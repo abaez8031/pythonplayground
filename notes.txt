@@ -64,3 +64,7 @@ for key in python_dictionary:
 def capitalize(fname, lname):
 """Will take a first and last name as input and return a capitalized version of the full name"""
   return f"{fname.title()} {lname.title()}"
+
+class Fish(Animal):
+  def __init__(self):
+    super().__init__()

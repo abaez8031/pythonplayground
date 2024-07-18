@@ -68,3 +68,11 @@ def capitalize(fname, lname):
 class Fish(Animal):
   def __init__(self):
     super().__init__()
+
+Pandas has two primary data structures:
+1. Dataframe - Whole table
+Every sheet in an excel file
+2. Series - Equivalent to a list
+Single column in table
+
+Dataframes can be converted to various different filetypes as well as a dictionary using pandas

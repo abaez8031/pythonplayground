@@ -16,7 +16,7 @@ import pandas
 
 data = pandas.read_csv("weather_data.csv")
 data_dict = data.to_dict()
-print(data_dict)
+# print(data_dict)
 # {
     # 'day': {
     # 0: 'Monday',
@@ -46,3 +46,23 @@ print(data_dict)
     # 6: 'Sunny'
     # }
 # }
+
+temp_list = data["temp"].to_list()
+
+# print(sum(temp_list) / len(temp_list))
+# print(data["temp"].mean())
+# print(data["temp"].median())
+# print(data["temp"].mode())
+# print(data["temp"].max())
+
+# Get data in columns
+# print(data.temp)
+# print(data["temp"])
+
+# Get data in rows
+# print(data[data.day == "Monday"])
+# print(data[data.temp == data.temp.max()])
+# monday = data[data.day == "Monday"]
+# monday_temp = monday.temp[0]
+
+# Create a dataframe from scratch

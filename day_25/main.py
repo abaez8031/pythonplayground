@@ -1,3 +1,5 @@
+import pandas
+
 # with open("weather_data.csv") as data_file:
 #   data = weather_data.readlines()
 #   print(data)
@@ -12,10 +14,9 @@
 #             temperatures.append(int(row[1]))
 # print(temperatures)
 
-import pandas
 
-data = pandas.read_csv("weather_data.csv")
-data_dict = data.to_dict()
+# data = pandas.read_csv("weather_data.csv")
+# data_dict = data.to_dict()
 # print(data_dict)
 # {
     # 'day': {
@@ -47,7 +48,7 @@ data_dict = data.to_dict()
     # }
 # }
 
-temp_list = data["temp"].to_list()
+# temp_list = data["temp"].to_list()
 
 # print(sum(temp_list) / len(temp_list))
 # print(data["temp"].mean())
@@ -66,3 +67,15 @@ temp_list = data["temp"].to_list()
 # monday_temp = monday.temp[0]
 
 # Create a dataframe from scratch
+
+# data_dict = {
+#     "students": ["Amy", "James", "Angela"],
+#     "scores": [76, 56, 65]
+# }
+#
+# data = pandas.DataFrame(data_dict)
+# data.to_csv("new_data.csv")
+
+# id, furcolor, count
+
+data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
